@@ -34,6 +34,8 @@ Smart_Home_Intruder_Detection/
 - **VOIC dataset (gunshot, glassbreak)**  
   [Zenodo VOIC dataset](https://zenodo.org/records/3514950)
 
+  download "VOICe_clean.7z" file with size 3.5 GB.
+
 ### Video
 - **DCSASS dataset** (home burglary/stealing/robbery scenarios)  
   [Kaggle DCSASS dataset](https://www.kaggle.com/datasets/mateohervas/dcsass-dataset/data)
