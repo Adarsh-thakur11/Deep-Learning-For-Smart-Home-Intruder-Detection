@@ -149,6 +149,3 @@ If you use this repo, please cite the datasets:
 	•	Kuznetsova, A. et al. (2020). Open Images V6. IJCV.
 
 
----
-
----
