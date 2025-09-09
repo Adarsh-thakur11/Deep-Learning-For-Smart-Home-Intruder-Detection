@@ -57,9 +57,8 @@ pip install -r requirements.txt
 # Example: download Person, Weapon, Handgun...
 python3 main.py downloader --classes Person Weapon Handgun Shotgun Helmet Scarf Knife "Kitchen knife" "Baseball bat" Backpack Flashlight --type_csv train --limit 200
 
-
- How to Prepare Data
-	1.	Place all raw datasets in: Smart_Home_Intruder_Detection/data/
+How to Prepare Data
+1.	Place all raw datasets in: Smart_Home_Intruder_Detection/data/
    
    Example:
     data/
@@ -68,17 +67,17 @@ python3 main.py downloader --classes Person Weapon Handgun Shotgun Helmet Scarf 
      ├── DCSASS_raw/
      └── human-activity-recognition-sensor/
 
-
-    2.	Run preprocessing notebooks (Audio.ipynb, Sensor.ipynb, Video.ipynb).
+2.	Run preprocessing notebooks (Audio.ipynb, Sensor.ipynb, Video.ipynb).
 	    •	Outputs (converted, cleaned, augmented datasets) are saved to:
              Smart_Home_Intruder_Detection/outputs/
-    3.	Final YOLO-ready video dataset is structured as:
+3.	Final YOLO-ready video dataset is structured as:
         outputs/openv6_yolo_format/
                     ├── images/train
                     ├── images/val
                     ├── labels/train
                     └── labels/val
-    4.  If you want to skip preprocessing, you can download my preprocessed outputs/ folder directly from Google Drive (link= "https://drive.google.com/drive/folders/1x9uXNgBAzUa66ey9ep8Cbsdxlfg8gmxR?usp=sharing ").
+4.  If you want to skip preprocessing, you can download my preprocessed outputs/ folder directly from Google Drive
+	(link= "https://drive.google.com/drive/folders/1x9uXNgBAzUa66ey9ep8Cbsdxlfg8gmxR?usp=sharing ").
 	
 Training YOLOv8 (Video)
     yolo detect train data=openv6main.yaml model=yolov8n.pt epochs=20 imgsz=640 batch=16 name=openv6_intruder_model
@@ -122,7 +121,7 @@ Visualizations
 
 
 
-🛠️ Requirements
+Requirements
 
 Install dependencies:
     pip install -r requirements.txt
