@@ -108,6 +108,7 @@ Training Sensor Model
 
 
 Fusion Model
+
 	    •	Notebook: 3d_vs_2D_MultiModal_intruder_detection.ipynb
     	•	Combines predictions from audio, video, and sensor models
     	•	Produces final intruder detection decision
@@ -115,6 +116,7 @@ Fusion Model
 
 
 Visualizations
+
     	•	Class distributions for audio, video, sensors
     	•	Confusion matrices for each modality
 	    •	Accuracy under noise / label corruption tests
