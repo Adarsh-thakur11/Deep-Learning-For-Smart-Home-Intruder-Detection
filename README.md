@@ -127,6 +127,7 @@ Visualizations
 Requirements
 
 Install dependencies:
+
     pip install -r requirements.txt
        Main packages:
 	•	ultralytics (YOLOv8)
