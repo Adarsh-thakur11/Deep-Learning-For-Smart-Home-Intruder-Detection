@@ -78,7 +78,7 @@ python3 main.py downloader --classes Person Weapon Handgun Shotgun Helmet Scarf 
                     ├── images/val
                     ├── labels/train
                     └── labels/val
-    4.  If you want to skip preprocessing, you can download my preprocessed outputs/ folder directly from Google Drive (link= " https://drive.google.com/drive/folders/1x9uXNgBAzUa66ey9ep8Cbsdxlfg8gmxR?usp=sharing ").
+    4.  If you want to skip preprocessing, you can download my preprocessed outputs/ folder directly from Google Drive (link= "https://drive.google.com/drive/folders/1x9uXNgBAzUa66ey9ep8Cbsdxlfg8gmxR?usp=sharing ").
 	
 Training YOLOv8 (Video)
     yolo detect train data=openv6main.yaml model=yolov8n.pt epochs=20 imgsz=640 batch=16 name=openv6_intruder_model
