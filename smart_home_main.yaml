@@ -1,0 +1,17 @@
+# smart_home.yaml
+path: outputs/smart_home_yolo   # relative to repo root
+train: images/train
+val: images/val
+
+names:
+  0: Person
+  1: Weapon
+  2: Handgun
+  3: Shotgun
+  4: Helmet
+  5: Scarf
+  6: Knife
+  7: Kitchen knife
+  8: Baseball bat
+  9: Backpack
+  10: Flashlight
